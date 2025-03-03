@@ -1,0 +1,88 @@
+
+
+.winners-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    background: linear-gradient(90deg, #000, #000, #3f3f3f);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    padding: 20px;
+}
+
+.title h2 {
+    font-size: 50px;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+span {
+    color: goldenrod;
+}
+
+
+.video-container{
+    display: flex;
+    gap: 50px;
+    padding: 50px;
+}
+
+.video-container iframe {
+    width: 90%;  
+}
+
+.more-winners-btn {
+    list-style: none;
+    background: linear-gradient(50deg, #00a700, #5b7c5b);
+    font-size: 1.25rem;
+    font-weight: bold;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 28px;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+    opacity: 1;
+    text-align: center;
+    margin: 20px;
+}
+
+.more-winners-btn:hover {
+    opacity: 0.8;
+    transform: scale(1.05);
+}
+
+.more-winners-btn a{
+    text-transform: uppercase;
+    color: #fff;
+    text-decoration: none;
+}
+
+@media (max-width: 900px) {
+    .video-container{
+        display: flex;
+        gap: 10px;
+        padding: 10px;
+    }
+    
+}
+
+@media (max-width: 500px) {
+    .video-container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .video-container iframe {
+        width: 100%;
+        margin-bottom: 20px;  
+    }
+
+    .title h2 {
+        font-size: 40px;
+        padding: 30px;
+    }
+   
+}

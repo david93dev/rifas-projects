@@ -1,0 +1,19 @@
+.container {
+    background: linear-gradient(90deg, #000, #000, #3f3f3f);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    padding: 20px;
+    padding: 50px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.general {
+    margin: 30px;
+}
+
+.img-notice {
+    width: 600px;
+}

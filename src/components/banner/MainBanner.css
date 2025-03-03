@@ -1,0 +1,102 @@
+#banner h2 {
+    color: goldenrod;
+    text-align: left;
+    margin: 20px 20px 1px;
+    font-size: 30px;
+}
+
+#banner h3, p {
+    color: #fff;
+    margin: 15px 15px 1px;
+    text-align: center;
+}
+
+#banner p {
+    margin-top: 10px;
+    text-align: center;
+}
+
+#banner h3 {
+    text-transform: uppercase;
+}
+
+#banner-container {
+    display: flex;
+    background-color: dimgray;
+    justify-content: center;
+    align-items: center;
+}
+
+#banner-background {
+    display: flex;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+    border-radius: 20px;
+    width: 1150px;
+    padding: 25px;
+}
+
+
+#banner-img {
+    width: 100%;
+    margin: 10px auto;
+    border-radius: 30px;
+}
+
+.banner-btn{
+    list-style: none;
+    background: linear-gradient(50deg, #00a700, #5b7c5b);
+    font-size: 1.25rem;
+    font-weight: bold;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 28px;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+    opacity: 1;
+    text-align: center;
+    margin-top: 18px;
+    width: 100%;
+}
+
+.banner-btn:hover {
+    opacity: 0.8;
+    transform: scale(1.05);
+}
+
+.banner-btn  {
+    text-transform: uppercase;
+    color: #fff;
+}
+
+@media (max-width: 500px) {
+    #banner-img {
+        border-radius: 10px;
+    }
+
+    #banner h2 {
+        font-size: 21px;
+    }
+
+    #banner h3 {
+        font-size: 15px;
+    }
+
+    #banner p {
+        font-size: 14px;
+    }
+
+    .footer-banner {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .banner-btn {
+        width: 90%;
+        
+    }
+}

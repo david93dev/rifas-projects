@@ -1,0 +1,49 @@
+.container {
+    background: linear-gradient(90deg, #000, #000, #3f3f3f);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    padding: 20px;
+    padding: 50px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.img-instagram img {
+    width: 300px;
+    transition: 0.3s ease-in-out;
+}
+
+
+.img-instagram img:hover {
+    filter: brightness(1.2);
+}
+
+
+.follow-btn {
+    list-style: none;
+    background: linear-gradient(50deg, #00a700, #5b7c5b);
+    font-size: 1.25rem;
+    font-weight: bold;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 28px;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+    opacity: 1;
+    text-align: center;
+    margin: 10px;
+}
+
+.follow-btn:hover {
+    opacity: 0.8;
+    transform: scale(1.05);
+}
+
+.follow-btn a {
+    text-transform: uppercase;
+    color: #fff;
+    text-decoration: none;
+    display: block;
+}

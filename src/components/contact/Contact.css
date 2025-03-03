@@ -1,0 +1,95 @@
+.reverse {
+    flex-direction: row-reverse;
+}
+
+.contact-container {
+    background: linear-gradient(90deg, #000, #000, #3f3f3f);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    padding: 20px;
+    padding: 50px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.contact {  
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0 85px;
+}
+
+.info-contact {
+    max-width: 40%;
+    
+}
+
+.info-contact h2 {
+    color: #fff;
+    font-size: 40px;
+    text-transform: uppercase
+}
+
+.what-img {
+    max-width: 500px;
+}
+
+.whats-btn {
+    background: linear-gradient(50deg, #00a700, #5b7c5b);
+    font-size: 1.25rem;
+    font-weight: bold;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 28px;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+    opacity: 1;
+    text-align: center;
+    width: 100%;
+}
+
+.whats-btn:hover {
+    opacity: 0.8;
+    transform: scale(1.05);
+}
+
+.whats-btn {
+    text-transform: uppercase;
+    color: #fff;
+    text-decoration: none;
+}
+
+@media (max-width: 900px) {
+    .info-contact h2 {
+        font-size: 30px;
+    }
+
+    .what-img {
+        width: 300px;
+    }
+}
+
+@media (max-width: 500px) {
+    .reverse {
+        flex-direction: row;
+    }
+
+    .ebook {
+        flex-direction: column;
+    }
+
+    .info-contact {
+        max-width: 100%;
+        margin-top: 15px;
+        
+    }
+    
+    .info-contact h2 {
+        text-align: center;
+        font-size: 30px;
+    }
+    
+}

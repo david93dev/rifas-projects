@@ -1,0 +1,117 @@
+
+.doubts-container {
+    background: linear-gradient(90deg, #000, #000, #3f3f3f);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    
+}
+
+.doubts{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 50px;
+}
+
+.text-container h2, .text-container p {
+    text-align: center;
+
+} 
+
+.text-container h2 {
+    color: #fff;
+    font-size: 60px;
+    text-transform: uppercase;
+}
+
+.text-container p {
+    font-size: 20px;
+    margin: 15px;
+}
+
+.text-btn {
+    color: #000;
+    font-weight: bold;
+    font-size: 22px;
+    text-transform: uppercase;
+    margin-right: 20px;
+}
+
+.icon-btn {
+    position: absolute;
+    right: 110px;
+    background-image: linear-gradient(450deg,#000 0%,#d7d7d7 100%);
+    background-origin: border-box; 
+    border-radius: 50%; 
+    color: #fff;
+    padding: 8px;
+    width: 40px;
+    height: 40px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;  
+}
+
+.icon-btn:hover {
+    transform: scale(1.1);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.container-acordion {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    width: 80%;
+}
+
+.container-acordion:hover {
+    transform: scale(1.0);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.acordion {
+    background-color: #fff;
+    padding: 18px 20px;
+    border-radius: 18px 18px 0 0;
+    margin: 0 100px;
+}
+
+.text-acordion {
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.description-acordion {
+    margin: 0 100px 30px;
+}
+
+@media (max-width: 900px) {
+    .text-btn {
+        font-size: 17px;
+    }
+        
+}
+
+@media (max-width: 500px) {
+    .text-container h2 {
+        font-size: 40px;
+    }
+
+    .text-container p {
+        font-size: 20px;
+    }
+
+    .container-acordion {
+        margin: 8px;
+        width: 100%;
+    }
+
+
+}

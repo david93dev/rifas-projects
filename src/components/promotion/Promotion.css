@@ -1,0 +1,145 @@
+
+#promo-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(90deg, #000, #000, #3f3f3f);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    padding-bottom: 30px;
+}
+
+
+#buy-book h1, #buy-book  h2, #buy-book  p {
+    color: #fff;
+    text-align: left;
+}
+
+#buy-book h1 {
+    font-size: 50px;
+    text-transform: uppercase;   
+}
+
+#buy-book p {
+    font-size: 20px;
+    margin: 1px;
+    text-align: left;
+}
+
+#buy-book h2 {
+    margin-top: 18px;
+    font-size: 20px;
+}
+
+#promo-day {
+    width: 500px;
+    margin-bottom: 30px;
+}
+
+#content-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    gap: 40px;
+}
+
+#banner-promo {
+    width: 600px; 
+    border-radius: 8px;
+}
+
+#buy-book {
+    max-width: 350px;
+    text-align: center;
+
+}
+
+#buy-botton {
+    list-style: none;
+    background: linear-gradient(50deg, #00a700, #5b7c5b);
+    font-size: 1.25rem;
+    font-weight: bold;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 28px;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+    opacity: 1;
+    text-align: center;
+    margin-top: 19px;
+}
+
+#buy-botton:hover {
+    opacity: 0.8;
+    transform: scale(1.05);
+}
+
+#buy-botton a{
+    text-transform: uppercase;
+    color: #fff;
+}
+
+
+/* Responsividade para telas menores que 900px */
+@media (max-width: 900px) {
+
+    #content-wrapper {
+        flex-direction: column;
+       }
+   
+    #banner-promo {
+        width: 420px;
+    }
+
+    #buy-book h1, #buy-book h2, #buy-book p {
+        color: #fff;
+        text-align: center;
+    
+        }
+
+    #buy-book h1 {
+        font-size: 28px;
+    }
+
+    #buy-book p {
+        font-size: 18px;
+    }
+
+    #buy-book h2 {
+        font-size: 20px;
+    }
+
+    #content-wrapper {
+        margin: 0px;
+    }
+    
+}
+
+/* Responsividade para telas menores que 500px */
+@media (max-width: 500px) {
+   
+   #promo-day {
+    width: 400px;
+   }
+
+   #buy-book h1, #buy-book h2, #buy-book p {
+    color: #fff;
+    text-align: center;
+
+    }
+
+    #buy-book h1 {
+        font-size: 28px;
+    }
+
+    #buy-book p {
+        font-size: 18px;
+    }
+
+    #buy-book h2 {
+        font-size: 20px;
+    }
+
+    
+}
