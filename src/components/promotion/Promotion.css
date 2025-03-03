@@ -68,6 +68,7 @@
     opacity: 1;
     text-align: center;
     margin-top: 19px;
+    width: 100%;
 }
 
 #buy-botton:hover {
@@ -75,7 +76,7 @@
     transform: scale(1.05);
 }
 
-#buy-botton a{
+#buy-botton{
     text-transform: uppercase;
     color: #fff;
 }
