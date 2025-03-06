@@ -1,0 +1,88 @@
+.title-winners-container, .winners-card-container{
+    background: linear-gradient(90deg, #838383, #d7d7d7);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+
+}
+
+.title-winners-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px;
+}
+
+.title-winners-card h2 {
+    font-size: 50px;
+    text-transform: uppercase;
+}
+
+.title-winners-card img {
+    width: 200px;
+    height: 210px;
+}
+
+.header-card-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#edition-winners {
+    width: 70%;
+    background-color: #232323;
+    color: #fff;
+    font-weight: bold;
+    padding: 12px;
+    font-size: 18px;
+    border: none;
+    margin: 15px;
+}
+
+.header-card-container h3 {
+   text-transform: uppercase;
+   font-size: 25px;
+   margin-bottom: 10px;
+}
+
+.winners-cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    color: #fff;
+    margin: 0 90px;
+    
+}
+
+
+.card {
+    padding: 20px;
+    background-color: #232323;
+    border-radius: 28px;
+    
+    
+}
+
+.winners-cards h3, .winners-cards li {
+text-align: center;
+ }
+ 
+
+.winners-cards ul{
+    list-style: none;
+}
+
+.winners-cards li{
+    padding-bottom: 5px;
+    
+}
+
+.winners-cards h3{
+   padding-bottom: 20px;
+   text-transform: uppercase;
+}
+
