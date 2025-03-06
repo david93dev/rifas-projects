@@ -126,8 +126,8 @@ export function WinnersCard() {
                   <li>Telefone: {ganhador.telefone}</li>
                   <li>CPF: {ganhador.cpf}</li>
                   <div className="react">
-                    <a href=""><span><MdOutlinePlayCircleFilled /></span></a>
-                    <a href=""><span> Reação</span></a>
+                    <a className="icon-react" href=""><span><MdOutlinePlayCircleFilled /></span></a>
+                    <a className="text-react" href=""><span> Reação</span></a>
                   </div>
                 </ul>
               </div>
