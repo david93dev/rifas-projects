@@ -18,10 +18,8 @@ export function Ebook() {
                     <p>Aqui no Pix do Milhão, todo sonho começa com <span>conhecimento</span>.</p>
                     <p>E para te ajudar nessa jornada, toda semana lançamos uma  coleção especial de e-books <span>para te inspirar, guiar e transformar</span>.</p>
                     <p>Escolha o seu conteúdo favorito e concorra a prêmios!</p>
-
-                    <div className="ebook-btn">
-                        <a href="#">Quero meu E-book</a>
-                    </div>
+                    
+                    <button className="ebook-btn">Quero meu E-book</button>
                 </div>
                 </div>
 

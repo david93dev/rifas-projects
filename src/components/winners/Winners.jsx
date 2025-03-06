@@ -18,9 +18,7 @@ export function Winners() {
 
                 </div>
 
-            <div className="more-winners-btn">
-            <a href="#">Ver Mais Ganhadores</a>
-            </div>
+            <button className="more-winners-btn">Ver Mais Ganhadores</button>
 
             </div>
         </section>

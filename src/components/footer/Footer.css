@@ -66,7 +66,6 @@
 }
 
 .enter-contact-btn {
-    list-style: none;
     background: linear-gradient(50deg, goldenrod, goldenrod, #ccce80);
     font-size: 18px;
     font-weight: bold;
@@ -79,18 +78,15 @@
     text-align: center;
     width: 80%;
     margin: 10px 0;
+    text-transform: uppercase;
+    color: #000;
+    text-decoration: none;
+    display: block;
 }
 
 .enter-contact-btn:hover {
     opacity: 0.8;
     transform: scale(1.05);
-}
-
-.enter-contact-btn a {
-    text-transform: uppercase;
-    color: #000;
-    text-decoration: none;
-    display: block;
 }
 
 /* sobre nós */
@@ -139,8 +135,8 @@
 
 .social-media a {
     color: goldenrod;
-    margin: 0px 10px;
     font-size: 40px;
+    margin: 10px;
 }
 
 /* texto */
@@ -185,5 +181,80 @@
 .footer-end {
     width: 95%;
     margin: 0;
+}
+
+@media (max-width: 900px) {
+    .info-contacts{
+        width: 90%;
+    }
+
+    .social-media a {
+        font-size: 25px;
+    }
+
+}
+
+@media (max-width: 500px) {
+    .info-contacts {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        text-align: center;
+    }
+
+    .logos-footer {
+        align-items: center;
+    }
+
+    .logos-footer p {
+        text-align: center;
+    }
+
+    .contact-footer {
+        text-align: center;
+        width: 100%;
+    }
+
+    .contact-footer h3, 
+    .contact-footer p, 
+    .about-us h3, 
+    .about-us a, 
+    .social-media h3 {
+        text-align: center;
+    }
+
+    .enter-contact-btn {
+        width: 50%;
+        margin: 0 120px;
+    }
+
+    .contact-footer p {
+        margin: 10px 50px;
+    }
+
+    .about-us {
+        align-items: center;
+    }
+
+    .social-media {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .social-media a {
+        font-size: 30px;
+        
+    }
+
+    .info-text {
+        width: 90%;
+        text-align: center;
+    }
+
+    .footer-end h3, 
+    .footer-end p {
+        text-align: center;
+    }
 }
 

@@ -49,6 +49,8 @@
     opacity: 1;
     text-align: center;
     width: 100%;
+    text-transform: uppercase;
+    color: #fff;
 }
 
 .whats-btn:hover {
@@ -56,11 +58,6 @@
     transform: scale(1.05);
 }
 
-.whats-btn {
-    text-transform: uppercase;
-    color: #fff;
-    text-decoration: none;
-}
 
 @media (max-width: 900px) {
     .info-contact h2 {

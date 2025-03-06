@@ -17,3 +17,9 @@
 .img-notice {
     width: 600px;
 }
+
+@media (max-width: 500px) {
+    .img-notice {
+        width: 450px;
+    }
+}

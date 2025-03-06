@@ -12,7 +12,7 @@ export function Instagram() {
 
                     <div className="general">
 
-                     <div className="title"><h2>Siga o nosso <span>Intagram!</span></h2></div>
+                     <div className="title"><h2>Siga o nosso <span>Instagram!</span></h2></div>
                        
                        <div className="img-instagram">
                        <a className="reflex" target="_blank" href="https://www.instagram.com/p/DFsTIxypcKQ/"> <img src={imagem} alt="Poster filme" /> </a>
@@ -22,11 +22,8 @@ export function Instagram() {
                        <a className="reflex" target="_blank" href="https://www.instagram.com/p/DFpt9rWJJaz/"> <img src={imagem3} alt="Poster filme" /> </a>
 
                        </div>
-                       
 
-                        <div className="follow-btn">
-                            <a href="#">Seguir</a>
-                        </div>
+                       <button className="follow-btn">Seguir</button>
 
                     </div>
                 </div>

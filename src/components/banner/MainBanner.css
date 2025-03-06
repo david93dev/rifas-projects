@@ -59,16 +59,13 @@
     text-align: center;
     margin-top: 18px;
     width: 100%;
+    text-transform: uppercase;
+    color: #fff;
 }
 
 .banner-btn:hover {
     opacity: 0.8;
     transform: scale(1.05);
-}
-
-.banner-btn  {
-    text-transform: uppercase;
-    color: #fff;
 }
 
 @media (max-width: 500px) {

@@ -58,6 +58,10 @@
     text-align: center;
     margin-left: 60px;
     width: 90%;    
+    text-transform: uppercase;
+    color: #fff;
+    text-decoration: none;
+    display: block;
 }
 
 .ebook-btn:hover {
@@ -65,12 +69,6 @@
     transform: scale(1.05);
 }
 
-.ebook-btn a {
-    text-transform: uppercase;
-    color: #fff;
-    text-decoration: none;
-    display: block;
-}
 
 @media (max-width: 900px) {
 

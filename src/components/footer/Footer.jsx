@@ -22,9 +22,7 @@ export function Footer() {
 
                             <div className="contact-footer">
                                 <h3>Fale conosco</h3>
-                                <div className="enter-contact-btn">
-                                    <a href="#">Entrar em cotato</a>
-                                </div>
+                                <button className="enter-contact-btn">Entrar em cotato</button>
                                 <p>24 horas disponível para melhor te atender!</p>
                             </div>
 
@@ -36,9 +34,12 @@ export function Footer() {
 
                             <div className="social-media">
                                 <h3>Redes sociais</h3>
+                                
+                                <div className="social-icones">
                                 <a href="instagram-link"><PiInstagramLogoBold /></a>
                                 <a href="youtube-link"><BsYoutube /></a>
                                 <a href="facebook-link"><FaFacebook /></a>
+                                </div>
                             </div>
 
                         </div>
