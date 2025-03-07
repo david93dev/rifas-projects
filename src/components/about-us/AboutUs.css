@@ -1,0 +1,67 @@
+.about-us-general {
+    background: linear-gradient(90deg, #838383, #d7d7d7);
+    padding: 50px 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.about-us-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    width: 80%;
+    max-width: 1200px;
+}
+
+.title-about-us-container {
+    flex: 1; 
+    display: flex;
+    align-items: first baseline;
+    flex-direction: column;
+    height: 100%;
+}
+
+.title-about-us-container h3 {
+    font-size: 25px;
+    font-weight: bold;
+    color: #333;
+}
+
+.title-about-us-container h2 {
+    font-size: 36px;
+    color: #333333;
+    text-transform: uppercase;
+    
+}
+
+.text-about-us-container {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.text-about-us-container p {
+    color: #000;
+    text-align: justify;
+    max-width: 500px;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .about-us-container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .text-about-us-container p {
+        max-width: 90%;
+        text-align: center;
+    }
+}
