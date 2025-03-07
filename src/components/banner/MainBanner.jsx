@@ -1,7 +1,10 @@
 import "./MainBanner.css"
 import banner from "../../assets/img/banner1.webp";
+import { useNavigate } from "react-router-dom"; 
 
 export function MainBanner() {
+    const navigate = useNavigate(); 
+    
     return (
        <section>
         <main>
@@ -17,7 +20,7 @@ export function MainBanner() {
                         <h3>Você pode ser o próximo ganhador! - 1 Milhão de reais + 1.000 bilhetes premiados</h3>
                         <p>Compre um e-book e garanta a sua participação!</p>
                         
-                        <button className="banner-btn" onClick={() => navigate("/pagina-desejada")}>Comprar</button>
+                        <button className="banner-btn" onClick={() => navigate('/Vendas')}>Comprar</button>
                         
                         </div>
                     </div>
