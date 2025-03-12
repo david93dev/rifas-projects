@@ -9,7 +9,6 @@
 .sales-banner-background {
     background-color: #323232;
     border-radius: 30px 30px 0 0;
-    
 } 
 
 /* main banner */
@@ -55,11 +54,142 @@
     align-items: center;
     justify-content: space-between;
     margin: 0 auto;
-
+    border-bottom: #3f3f46 solid 3px;
 }
 
 .award {
     display: flex;
-    align-items: center;    
+    align-items: first baseline;    
     flex-direction: column;
+    margin-bottom: 20px;
+    
 }
+
+.award p {
+    margin: 5px 10px 0px;
+}
+
+.icon-clover {
+    color: #8bc02b;
+    font-size: 20px;
+}
+
+.value-sale-tiket{
+    font-size: 30px;
+    background-color: #3f3f46;
+    padding: 12px 12px 5px;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* timer */
+
+.container-timer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+    border-bottom: #3f3f46 solid 3px;
+}
+
+.timer-general {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    margin: 20px;
+}
+
+.timer-general h3 {
+    font-size: 15px;
+    margin: 5px 0;
+}
+
+.timer-general h3 span {
+    color: #ffcd39;
+    font-weight: bold;
+}
+
+.timer {
+    font-size: 30px;
+    font-weight: bold;
+    background-color: #ffcd39;
+    color: #1e1e1e;
+    padding: 10px 30px 5px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.background-timer {
+    background-color: #18181b;
+    border-radius: 12px;
+    width: 90%;
+}
+
+/* promoção */
+
+.container-promotion {
+    margin: 20px;
+    border-bottom: #3f3f46 solid 3px;
+}
+
+.title-promotion {
+    position: relative;
+    
+}
+
+.fire-icon {
+    color: orangered;
+    font-size: 40px;
+    position: absolute;
+    width: 50px;
+    left: 2px;
+    bottom: 20px;
+    
+}
+
+.border-text-promotion {
+    background-color: #ffcd39;
+}
+
+.title-promotion h2 { 
+    color: #fff; 
+    text-align: left;
+    margin-left: 50px;
+    position: absolute;
+    bottom: 20px;
+    
+}
+
+.title-promotion h3 {  
+    text-align: left;
+    margin-left: 50px;
+    position: absolute;
+    bottom: -12px;
+    font-size: 14px;
+    background-color: #ffcd39;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+
+.background-promotion {
+    background-color: #3f3f46;
+    border: #ffcd39 solid 1px;
+    border-radius: 5px;
+    margin-top: 70px;
+    padding: 0px;
+}
+
+.promotion-info{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
